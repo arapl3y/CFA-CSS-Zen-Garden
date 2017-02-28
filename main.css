@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
+@font-face { font-family: Origami; src: url('Origami.ttf'); }
+
+
+/* Main Styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 1.8em;
+}
+
+a {
+  color: #34cb35;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 3.4em;
+  font-family: 'Origami', helvetica, sans-serif;
+  color: rgba(45, 203, 46, 0.8);
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: 'Inconsolata';
+  color: rgba(45, 203, 46, 0.8);
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-family: 'Origami';
+  color: rgba(45, 203, 46, 0.8);
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+p {
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+
+
+/* Header */
+
+header {
+  height: 1100px;
+  text-align: center;
+  background: url('origami-bg.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #198452;
+}
+
+header h1 {
+  padding-top: 180px;
+}
+
+header h2 {
+  color: #1d471d;
+}
+
+/* Body Classes */
+
+.summary {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-style: italic;
+  color: grey;
+  opacity: 0.7;
+}
+
+.preamble {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.explanation {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.participation,
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  color: white;
+  background: url('origami-bg.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #198452;
+}
+
+
+.requirements {
+  padding-top: 60px;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+/* Footer Classes */
+
+.wrapper {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  color: white;
+  background: url('origami-bg.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #198452;
+}
+
+.wrapper a {
+  color: white;
+}
+
+.design-archives {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Media Queries */
+@media(max-width: 576px){
+  header {
+    height: 700px;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 0.65em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
+
+  ul li {
+    font-size: 0.8em;
+  }
+}
